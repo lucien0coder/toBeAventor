@@ -24,7 +24,7 @@
     |__statistics
     |__push notification
 
-2.app - customer
+#2.app - customer
  |__login in/out
     |__register
  |__personal information management
