@@ -1,12 +1,12 @@
-## 练摊
+# 练摊
 
-# 1.web - vendor
- * |__login in/out
+## web - vendor
+ >* |__login in/out
     |__register
- * |__commodity management
+ >* |__commodity management
     |__commodity crud(by batch)
     |__shelf management
- * |__shop management
+ >* |__shop management
     |__set loco
        |__map(location)
     |__base info
@@ -15,26 +15,36 @@
     |__backstage
        |__comment from customer
        |__push events
- * |__order management
+ >* |__order management
     |__handle order
     |__cancel order
     |__finish order
     |__statistics order
- *|__customer management
+ >*|__customer management
     |__statistics
     |__push notification
 
-#2.app - customer
- * |__login in/out
+## app - customer
+ >* |__login in/out
     |__register
- * |__personal information management
- * |__order record
- * |__search
+ >* |__personal information management
+ >* |__order record
+ >* |__search
     |__from record
     |__from nearby by condition
- * |__social
+ >* |__social
     |__recommend browse
        |__entre shop
        |__order
        |__payment
     |__customer comment
+
+## API - model
+ >* |__user
+
+
+ >* |__shop
+
+ >* |__order
+
+ >* |__commodi
