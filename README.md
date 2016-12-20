@@ -1,5 +1,7 @@
 # 练摊
 
+-------
+
 ## web - vendor
  >* |__login in/out
      * |__register
@@ -41,6 +43,7 @@
 
 ## API - model
  >* |__user
+    this.name
 
  >* |__shop
 

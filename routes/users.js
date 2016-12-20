@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-var User = require('./user');
 var URL = require('url');
+var User = require('./model/user');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -11,19 +11,9 @@ router.get('/', function(req, res, next) {
 router.get('/getUserInfo',function(req, res, next){
 	var user = new User();
 	var params = URL.parse(req.url, true).query;
-
-
-	if(params.id == 1){
-		user.name = '高岗';
-		user.age = '28'
-		user.city = 'peking'
-	}else{
-		user.name = '离线';
-		user.age = '35'
-		user.city = 'Canton'
-	}
-
-	var respond = {status:1,data:user}
+	let d = user.getUserInfo(params.id);
+	console.log(d)
+	var respond = {status:1,data:d}
 	res.send(JSON.stringify(respond))
 })
 
