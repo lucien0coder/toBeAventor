@@ -8,13 +8,13 @@
      * |__shelf management
  >* |__shop management
      * |__set loco
-          |__map(location)
+        * |__map(location)
      * |__base info
      * |__commodity show setting
      * |__shop show
      * |__backstage
-          |__comment from customer
-          |__push events
+        * |__comment from customer
+        * |__push events
  >* |__order management
      * |__handle order
      * |__cancel order
@@ -47,3 +47,5 @@
  >* |__order
 
  >* |__commodi
+
+    $ git add .
