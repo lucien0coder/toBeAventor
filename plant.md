@@ -17,7 +17,7 @@
   * es6/jade/sass/less
   * cordova/eletron 熟用
   * mongodb
-  * stronge
+  * storage
   * 测试/发布/打包
  * 业务规则：游戏规则
  * 业务分析：功能要点；需求分析；业务设计；流程设计；
