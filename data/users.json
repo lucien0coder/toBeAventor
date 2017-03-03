@@ -1,6 +1,2 @@
-[
-	{"id":"1","name":"高岗","sex":"1","loco":"peking","uStatus":"0"},
-	{"id":"2","name":"李丽","sex":"1","loco":"lahsa","uStatus":"1"},
-	{"id":"3","name":"美团","sex":"0","loco":"Canton","uStatus":"0"}
-]
+﻿[{"id":"1","name":"高岗","sex":"1","loco":"peking","uStatus":"0"},{"id":"2","name":"李丽","sex":"1","loco":"lahsa","uStatus":"1"},{"id":"3","name":"美团","sex":"0","loco":"Canton","uStatus":"0"}]
 

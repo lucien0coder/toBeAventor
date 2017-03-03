@@ -10,20 +10,8 @@ function User(){
 
 	this.getUserInfo = function(id){
 		let rs;
-		let data = fs.readFile('./data/users.json','utf8',function(err,data){
-			if(err){
-				console.log(err)
-			}else{
-				let users = JSON.parse(data)
-				for(let u of users){
-					if(u.id == id){
-						rs = u
-						break
-					}				
-				}
-				return rs;
-			}
-		});
+		let data = fs.readFileSync('./data/users.json','utf8');
+		return data;
 	}
 }
 
