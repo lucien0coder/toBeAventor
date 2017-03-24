@@ -2,3 +2,4 @@
 *dist/
 backend/
 vendorapp/
+*.~vsdx
