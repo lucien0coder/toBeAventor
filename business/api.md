@@ -30,32 +30,44 @@
    * return:thisFCcommentList
    * direct to 「食评详情」页,显示comments和评论输入框 
 
- * 1.6 POST /postComment/#socialID
+ * 1.6 GET /selectLocation
+   * return:0/1/2
+   * direct to 「地点切换」
+
+ * 1.7 GET /foodCirtic/#useraccount
+   * params:useraccount
+   * return:0/1/2
+   * direct to 「美食家详情」页
+
+ * 1.8 GET /shop/#shopID
+   * params:shopId
+   * return:0/1/2   
+   * direct to 「店铺详情」页
+
+ * 1.9 GET /foodComment/#socialID
+   * params:socialID
+   * return:0/1/2
+   * direct to「食评详情」页
+
+ * 1.10 POST /postComment/#socialID
    * params:COMMENT
    * return:0/1/2
 
- * 1.7 GET /like/#socialID
+ * 1.11 GET /like/#socialID
    * params:socialID;user
    * return:0/1/2
 
- * 1.8 GET /collect/#socialID
+ * 1.12 GET /collect/#socialID
    * params:socialID;user
    * return:0/1/2
 
- * 1.9 GET /selectLocation
-   * direct to 「地点切换」
-
- * 1.10 GET /foodCirtic/#useraccount
-   * params:useraccount
-   * direct to 「美食家详情」页
-
- * 1.11 GET /shop/#shopID
-   * params:shopId
-   * direct to 「店铺详情」页
-
- * 1.12 GET /foodComment/#socialID
+ * 1.13 GET /listLike/#socialID
    * params:socialID
-   * direct to「食评详情」页
+   * return:likeList
+
+ * 1.14 GET /listComment/#socialID
+   * params:socialID
+   * return:commentList
 
 ## 2 Looking
  
@@ -63,19 +75,60 @@
    * params:local
    * return:Looking
 
- * 2.2 GET /Looking/#socialID
+ * 2.2 GET /looking/#socialID
    * params:socialId
    * direct to「寻食详情」页
 
- * 2.3
+ * 2.3 POST /beAVendor/#socialID/USER(temporary)
+   * params:socialId;USER
+   * return:0/1/2
 
- * 1.6;1.7;1.8
+ * 1.10; 1.11; 1.12; 1.13; 1.14
 
- * 
+## 3 Post
+ 
+ * 3.1 POST /postLooking/LOOKING
+   * params:LOOKING
+   * return:0/1/2
 
-## post
+ * 3.2 POST /postFoodComment/FOODCOMMENT
+   * params:FOODCOMMENT
+   * return:0/1/2
 
+ * 3.3 POST /postInviting/INVITING
+   * params:INVITING
+   * return:0/1/2
 
-## track
+## 4 Track
+  
+ * 4.1 GET /listMyFC/#userid
+   * params:userid
+   * return:myFCList
 
-## personal
+ * 4.2 GET /listMyLooking/#userid
+   * params:userid
+   * return:myLookingList
+
+ * 4.3 GET /listMyPC/#userid
+   * params:userid
+   * return:myPCList
+  
+ * 4.4 GET /listMyLike/#userid
+   * params:userid
+   * return:myLikeList
+
+ * 1.14
+
+## 5 Personal
+
+ * 5.1 GET /myInfo/#userid
+   * params:userid
+   * return:USER
+
+ * 5.2 GET /myCollection/#userid
+   * params:userid
+   * return:myCollectionList
+
+ * 5.3 PUT /updateMyInfo/#userid
+   * params:USER
+   * return:0/1/2
