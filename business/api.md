@@ -60,8 +60,8 @@
 ## 2 Looking
  
  * 2.1 GET /listLookingByLocalAndCondition
-  * params:local
-  * return:Looking
+   * params:local
+   * return:Looking
 
  * 2.2 GET /Looking/#socialID
   * params:socialId
