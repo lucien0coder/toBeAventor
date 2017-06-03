@@ -4,3 +4,4 @@ backend/
 vendorapp/
 vendor_backend/
 *.~vsdx
+vendorAdb/
