@@ -96,16 +96,16 @@
 
 ## 5 Personal
 
- * 1.8 GET /user/#socialID
+ * 1.8 GET /users/#socialID
    * params:useraccount
    * return:0/1/2
    * direct to 「美食家详情」页
 
- * 5.2 GET /user/collection/#userid
+ * 5.2 GET /users/collection/#userid
    * params:userid
    * return:myCollectionList
 
- * 5.3 PUT /user/update
+ * 5.3 PUT /users/update
    * params:USER
    * return:0/1/2
 

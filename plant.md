@@ -38,3 +38,7 @@
 ## 合作项目
  * sciencgo
  * Extension industry
+
+## 珠宝项目
+ * 销售 + 设计师 + 供应商(工厂/作坊) 整合营运模式  ppt   周四/周五
+ * 
